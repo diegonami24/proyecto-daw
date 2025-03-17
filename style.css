@@ -236,6 +236,16 @@ body{
     padding: 0 100px;
 }
 
+#botonArriba {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 40px;
+    transition: 1s;
+}
+
+
+
 
 .footer {
     padding: 25px 0;

@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SYSTEM-CAM</title>
+    <link rel="icon" href="/images/logo.system-cam.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+
+    <div class="arriba" id="principio">
+    <header class="header" id="header">
         <div class="menu container">
             
             <a href="#" class="logo">System-cam</a>
@@ -18,10 +21,10 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -40,8 +43,8 @@
     </header>
 
 
-    <section class="services">
-            <img src="images/banner.png" alt="">
+    <section class="services" id="services">
+            <img src="/images/banner.jpg" alt="">
 
             <div class="services-content container">
                 <H2>Servicios</H2>
@@ -83,7 +86,7 @@
         </div>
     </section>
 
-    <section class="galeria">
+    <section class="galeria" id="galeria">
         <div class="galeria-content container">
             <h2> Galeria </h2>
             <p>
@@ -111,7 +114,7 @@
     </section>
     
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-content container">
             <h2>Contactanos</h2>
             <img src="/images/logo2.system-cam.png">
@@ -122,6 +125,9 @@
             <h3>Zaruma - El Oro - Ecuador</h3>          
         </div>
     </section>
+    </div>
+    <a href="#principio"><img src="/images/flecha.png" id="botonArriba"></a>
+
 
     <footer class="footer">
         <div class="footer-content">
@@ -134,6 +140,6 @@
         </div>
     </footer>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
