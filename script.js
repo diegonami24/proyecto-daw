@@ -1,15 +1,25 @@
-function irArriba (){
-    windows.addEventListener('scroll', () => {
-        var scroll = document.documentElement.scrollTop;
-        console.log(scroll);
-        var botonArriba = document.getElementById('botonArriba');
+//scroll up
 
-        if(scroll > 300){
-            botonArriba.style.rigth = 20 + "px";
-        } else {
-            botonArriba.style.rigth = -100 + "px";
-        }
-    })
+document.getElementById("button-up").addEventListener("click", scrollup);
+
+function scrollup(){
+    
+    var currentScroll = document.documentElement.scrollTop;
+    
+    if (currentScroll>0){
+        window.requestAnimationFrame(scrollup);
+        window.scrollTo (0,currentScroll -(currentScroll/10));
+    } 
+
 }
 
-irArriba();
+buttonUp = document.getElementById(button-up);
+
+window.onscroll = function(){
+
+    var scroll = document.documentElement.scrollTop;
+
+    if (scroll > 100){
+       buttonUp.style.transform = "scale(1)";
+    }
+}
