@@ -51,7 +51,7 @@ body{
 
 .menu .navbar ul li a {
     font-size: 18px;
-    padding: 20px;
+    padding: 10px;
     color: #fffdfc;
     display: block;
     font-weight: 600px;
@@ -80,18 +80,20 @@ body{
 }
 
 .header-content h1{
-    padding: 100px;
+    padding: 62px  ;
     font-size: 50px;
     line-height: 80px;
     color: #e69327;
     text-transform: uppercase;
     box-shadow: 10px 20px 30px #c5c5c5;
+    border-radius: 100px;
     border-color: #c5c5c5;
 }
 
+
 .header-content h2{
-    padding: 10px;
-    font-size: 20px;
+    padding: 30px;
+    font-size: 30px;
     line-height: 80px;
     color: #f9fafc;
     text-transform: uppercase;
@@ -101,9 +103,9 @@ body{
 
 
 .header-content p{
-    font-size: 16px;
+    font-size: 20px;
     color: #c5c5c5;
-    padding: 0 150px;
+    padding: 30px;
     margin-bottom: 40px;
     line-height: 30px;
 }
@@ -119,20 +121,33 @@ body{
 .btn-1 {
     display: inline-block;
     padding: 11px 35px;
-    background-color: #ce9678;
+    background-color: #ee9a6c;
     color: #f9fafc;
     border-radius: 35px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .btn-1:hover {
-    background-color: #f0d3c3;
+    background-color: #e69327;
+    color: #051f68;
+    font-weight: bold;
 }
 
 .services {
-    padding: 100px 0;
+    
+    padding: 50px  ;
     background-color: #ffffff;
     position: relative;
+}
+#servises-p {
+    padding: 30px;
+    font-size: 30px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .services-content {
@@ -144,7 +159,7 @@ body{
     line-height: 70px;
     color: #323337;
     text-transform: uppercase;
-    padding: 0 250px;
+    padding: 10px;
     margin-bottom: 15px;
 }
 
@@ -246,7 +261,7 @@ body{
     line-height: 70px;
     color: #323337;
     text-transform: uppercase;
-    padding: 0 250px;
+    padding: 10px;
     margin-bottom: 15px;
 }
 
@@ -310,25 +325,112 @@ body{
 .facebook{
     display: inline-block;
     padding: 11px 35px;
-    background-color: #051f68;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #1153e2;
     border-radius: 35px;
 }
 
 .facebook:hover {
-    background-color:#a14310;
-    color: #051f68;
+    background-color:#1153e2;
+    color: #ffffff;
 }
 
 .whatsapp{
     display: inline-block;
     padding: 11px 35px;
-    background-color: #13611e;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #20c22e;
     border-radius: 35px;
 }
 
 .whatsapp:hover {
-    background-color:#a14310;
-    color: #13611e;
+    background-color:#20c22e;
+    color: #ffffff;
+}
+
+
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 200px;
+        right: 10px;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content h2 {
+        padding: 0;
+    }
+
+    .services-p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .galeria {
+        padding: 30px;
+    }
+
+    .galeria-content p {
+        padding: 0;
+    }
+
+    .galeria-group {
+        flex-direction: column;
+        margin-bottom: ;
+    }
+
+    .galeria-1 {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
 }
