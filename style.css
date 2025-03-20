@@ -377,7 +377,7 @@ body{
     }
 
     .menu label {
-        display: initial
+        display: initial;
     }
 
     .menu .navbar {
@@ -446,7 +446,7 @@ body{
 
     .galeria-group {
         flex-direction: column;
-        margin-bottom: ;
+        margin-bottom: 10px;
     }
 
     .galeria-1 {
