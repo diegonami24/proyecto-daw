@@ -9,7 +9,7 @@ function scrollUp(){
 
         window.scrollTo (0,currentscroll - (currentscroll / 20));
     }
-};
+}
 
 buttonUp = document.getElementById("button-up");
 
