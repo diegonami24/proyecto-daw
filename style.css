@@ -304,11 +304,12 @@ body{
     border: 4px solid transparent;
     transition: all 300ms ease;
     transform: scale(0);
+    background-color:#c75d17;
 }
 
 #button-up:hover {
-    transform: scale(1.2);
-    background-color: #051f68;
+    transform: scale(1.1);
+    background-color: #2451b1;
 
 }
 
