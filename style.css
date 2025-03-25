@@ -88,7 +88,7 @@ body{
     box-shadow: 10px 20px 30px #c5c5c5;
     border-radius: 100px;
     border-color: #c5c5c5;
-    text-shadow: 1px 4px 2px#ffffff;
+    text-shadow: 2px 2px 2px#ffffff;
 }
 
 
@@ -163,7 +163,7 @@ body{
     text-transform: uppercase;
     padding: 10px;
     margin-bottom: 15px;
-    text-shadow: 05px 5px 5px #c75d17;
+    text-shadow: 3px 3px 3px #c75d17;
 }
 
 .txt-p {
@@ -230,7 +230,7 @@ body{
     color: #f9fafc;
     text-transform: uppercase;
     margin-bottom: 50px;
-    text-shadow: 05px 5px 5px #c75d17;
+    text-shadow: 3px 3px 3px #c75d17;
     
 }
 
