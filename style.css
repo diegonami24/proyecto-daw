@@ -212,7 +212,7 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7) ),
-        url(https://drive.google.com/file/d/15Yeej-iMtGzhgvtshv_WpPgM-0KU9lwL/view?usp=drive_link);
+        url(/images/banner3.jpg);
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -279,7 +279,7 @@ body{
     color: #323337;
     text-transform: uppercase;
     margin-bottom: 0;
-    text-shadow: 05px 5px 5px #c75d17;
+    text-shadow: 3px 3px 3px #c75d17;
 }
 
 .contact-content h3 {
